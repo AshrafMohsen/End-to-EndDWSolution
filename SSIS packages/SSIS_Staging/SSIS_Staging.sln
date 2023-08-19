@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SSIS_Staging", "SSIS_Staging.dtproj", "{E170E674-50DD-4A22-BA75-45D85799B33D}"
+EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SSIS_DW", "..\SSIS_DW\SSIS_DW.dtproj", "{2C638B41-B486-41DE-9000-4CB5B02743B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E170E674-50DD-4A22-BA75-45D85799B33D}.Development|Default.ActiveCfg = Development
+		{E170E674-50DD-4A22-BA75-45D85799B33D}.Development|Default.Build.0 = Development
+		{2C638B41-B486-41DE-9000-4CB5B02743B3}.Development|Default.ActiveCfg = Development
+		{2C638B41-B486-41DE-9000-4CB5B02743B3}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2187CF74-E018-4C88-9D89-A50EA01938DC}
+	EndGlobalSection
+EndGlobal
