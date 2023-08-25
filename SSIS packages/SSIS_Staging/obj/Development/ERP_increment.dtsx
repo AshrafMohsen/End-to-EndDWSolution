@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="ERP_increment"
   DTS:PackageType="5"
-  DTS:VersionBuild="28"
-  DTS:VersionGUID="{27383DE2-D89A-4014-B7CC-83A132CF601A}">
+  DTS:VersionBuild="30"
+  DTS:VersionGUID="{86543CF0-BC36-457C-B545-A54294D6E77C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -3699,10 +3699,10 @@ Where OrderDate &gt;?</property>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="450,195"
-          Size="450,238"
+          PanelSize="441,194"
+          Size="441,237"
           Id="Package\Full load"
-          TopLeft="425,168" />
+          TopLeft="434,168" />
         <NodeLayout
           Size="166,42"
           Id="Package\Incremental\Get last sales date"
@@ -3786,19 +3786,19 @@ Where OrderDate &gt;?</property>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="343,223"
-          Size="343,266"
+          PanelSize="331,216"
+          Size="331,259"
           Id="Package\Incremental"
-          TopLeft="48,169" />
+          TopLeft="60.2222222222222,169" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="269,112">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="381,56"
+              EndConnector="385.5,56"
               Start="0,0"
-              End="381,48.5">
+              End="385.5,48.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -3809,26 +3809,26 @@ Where OrderDate &gt;?</property>
                     Point2="0,22.7432950191571"
                     Point3="4,22.7432950191571" />
                   <mssgle:LineSegment
-                    End="377,22.7432950191571" />
+                    End="381.5,22.7432950191571" />
                   <mssgle:CubicBezierSegment
-                    Point1="377,22.7432950191571"
-                    Point2="381,22.7432950191571"
-                    Point3="381,26.7432950191571" />
+                    Point1="381.5,22.7432950191571"
+                    Point2="385.5,22.7432950191571"
+                    Point3="385.5,26.7432950191571" />
                   <mssgle:LineSegment
-                    End="381,48.5" />
+                    End="385.5,48.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="182.5,27.7432950191571,16,16"
+              BoundingBox="184.75,27.7432950191571,16,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="219.75,112">
+          TopLeft="222.861111111111,112">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"

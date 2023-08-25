@@ -23,6 +23,42 @@ The result is a well-structured dimensional schema that forms the foundation for
 
 5. **Power BI Visualization**: Power BI is used to connect to the Tabular model and create interactive visualizations. With the foundation of SQL-driven data structures and DAX measures, you design insightful dashboards and reports. The seamless integration of Power BI with the Tabular model allows for dynamic exploration of data, further highlighting the impact of your SQL-driven backend.
 
+## Screenshots
+
+Here are some screenshots showcasing different aspects of the project:
+
+- **SSIS_FactResellerSales**: Screen illustrating the ETL process for Fact Reseller Sales.
+
+Screenshots/SSIS_FactResellerSales.png
+
+- **SSIS_FactInternetSales**: Screen showcasing the ETL process for Fact Internet Sales.
+
+Screenshots/SSIS_FactInternetSales.png
+
+- **SSIS_ERP_increment**: Screenshot depicting the incremental loading process from the ERP system.
+
+Screenshots/SSIS_ERP_increment.png
+
+- **SSIS_ERP_Address**: Screenshot demonstrating the ETL process for ERP addresses.
+
+Screenshots/SSIS_ERP_Address.png
+
+- **SSIS_ERP**: Screen capturing the general ETL process from the ERP system.
+
+Screenshots/SSIS_ERP.png
+
+- **SSIS_DimEmployee**: Screenshot displaying the ETL process for the Employee dimension.
+
+Screenshots/SSIS_DimEmployee.png
+
+![DWH Schema](screenshots/DWH_Schema.png)
+
+Screenshots/DWH Schema.JPG
+
+- **Power BI**: Screenshot of the Power BI dashboard displaying visualizations.
+
+Screenshots/Power%20BI.png
+
 ## Data Source
 
 The project uses data from the AdventureWorks2022 source system. You can find the source data file at the following link:
@@ -35,6 +71,8 @@ The project uses data from the AdventureWorks2022 source system. You can find th
 - `SSISPackages/`: SSIS packages for ETL processes.
 - `SSASModel/`: Files related to the Tabular model in SSAS.
 - `PowerBIReports/`: Power BI reports for data visualization.
+- `AdventureWorks/`: AdventureWorks2022 source data.
+- `Screenshots/`: Screenshots of different project aspects.
 - `README.md`: Project overview, and details.
 
 ## Getting Started
