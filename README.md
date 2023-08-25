@@ -29,35 +29,32 @@ Here are some screenshots showcasing different aspects of the project:
 
 - **SSIS_FactResellerSales**: Screen illustrating the ETL process for Fact Reseller Sales.
 
-Screenshots/SSIS_FactResellerSales.png
+https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_FactResellerSales.JPG
 
 - **SSIS_FactInternetSales**: Screen showcasing the ETL process for Fact Internet Sales.
 
-Screenshots/SSIS_FactInternetSales.png
+https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_FactInternetSales.JPGg
 
 - **SSIS_ERP_increment**: Screenshot depicting the incremental loading process from the ERP system.
-
-Screenshots/SSIS_ERP_increment.png
+https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_ERP_increment.JPG
 
 - **SSIS_ERP_Address**: Screenshot demonstrating the ETL process for ERP addresses.
-
-Screenshots/SSIS_ERP_Address.png
+https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_ERP_Address.JPG
 
 - **SSIS_ERP**: Screen capturing the general ETL process from the ERP system.
-
-Screenshots/SSIS_ERP.png
+https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_ERP.JPG
 
 - **SSIS_DimEmployee**: Screenshot displaying the ETL process for the Employee dimension.
 
 Screenshots/SSIS_DimEmployee.png
 
-![DWH Schema](screenshots/DWH_Schema.png)
+https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_DimEmployee.JPG
 
-Screenshots/DWH Schema.JPG
+https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/DWH%20Schema.JPG
 
 - **Power BI**: Screenshot of the Power BI dashboard displaying visualizations.
 
-Screenshots/Power%20BI.png
+https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/Power%20BI.JPG
 
 ## Data Source
 
