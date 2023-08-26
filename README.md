@@ -46,9 +46,9 @@ https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSI
 
 - **SSIS_DimEmployee**: Screenshot displaying the ETL process for the Employee dimension.
 
-Screenshots/SSIS_DimEmployee.png
-
 https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_DimEmployee.JPG
+
+- **DWH Schema**: Screenshot illustrating the Data Warehouse Schema with Slowly Changing Dimensions (SCD) and Conformed/Role-Playing Dimensions.
 
 https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/DWH%20Schema.JPG
 
