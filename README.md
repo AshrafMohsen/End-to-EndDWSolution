@@ -56,10 +56,7 @@ https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/DWH
 
 https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/Power%20BI.JPG
 
-## Data Source
 
-The project uses data from the AdventureWorks2022 source system. You can find the source data file at the following link:
-[AdventureWorks2022 Source Data](https://drive.google.com/file/d/1MzE_1whZyw7fr0GK1tGc4qvZqcqTQ6QK/view?usp=drive_link)
 
 ## Repository Contents
 
