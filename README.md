@@ -29,7 +29,7 @@ The result is a well-structured dimensional schema that forms the foundation for
 
 Here are some screenshots showcasing different aspects of the project:
 
-- ![**SSIS_FactResellerSales**: Screen illustrating the ETL process for Fact Reseller Sales.}(https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_FactResellerSales.JPG)
+- ![**SSIS_FactResellerSales**: Screen illustrating the ETL process for Fact Reseller Sales.](https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_FactResellerSales.JPG)
 
 - ![**SSIS_FactInternetSales**: Screen showcasing the ETL process for Fact Internet Sales.](https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_FactInternetSales.JPGg)
 
