@@ -1,7 +1,7 @@
 # Multinational Manufacturing Data Warehouse Project
 
 This repository contains the implementation of a data warehousing project for the Multinational Manufacturing company. 
-The project involves building a comprehensive data warehouse from the AdventureWorks2022 source system, creating staging and dimensional tables, and Designing a Tabular model using a combination of SQL Server Integration Services (SSIS), SQL Server Analysis Services (SSAS), and Power BI.
+The project involves building a comprehensive data warehouse from the AdventureWorks2022 source system, creating staging and dimensional tables, and Designing a Tabular model using a combination of SQL Server Integration Services (SSIS), SQL Server Analysis Services (SSAS), and Power BI, and creating a report with SQL Server Reporting Services (SSRS)
 
 ## Project Overview
 
@@ -23,38 +23,44 @@ The result is a well-structured dimensional schema that forms the foundation for
 
 5. **Power BI Visualization**: Power BI is used to connect to the Tabular model and create interactive visualizations. With the foundation of SQL-driven data structures and DAX measures, you design insightful dashboards and reports. The seamless integration of Power BI with the Tabular model allows for dynamic exploration of data, further highlighting the impact of your SQL-driven backend.
 
+6. **Report Development with SSRS**: SQL Server Reporting Services (SSRS) is used to create interactive and paginated reports based on the data in the data warehouse . This report serve as a key component of the project's reporting solution. 
+
 ## Screenshots
 
 Here are some screenshots showcasing different aspects of the project:
 
-- **SSIS_FactResellerSales**: Screen illustrating the ETL process for Fact Reseller Sales.
+- ![**SSIS_FactResellerSales**: Screen illustrating the ETL process for Fact Reseller Sales.}
 
-https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_FactResellerSales.JPG
+(https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_FactResellerSales.JPG)
 
-- **SSIS_FactInternetSales**: Screen showcasing the ETL process for Fact Internet Sales.
+- ![**SSIS_FactInternetSales**: Screen showcasing the ETL process for Fact Internet Sales.]
 
-https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_FactInternetSales.JPGg
+(https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_FactInternetSales.JPGg)
 
-- **SSIS_ERP_increment**: Screenshot depicting the incremental loading process from the ERP system.
-https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_ERP_increment.JPG
+- ![**SSIS_ERP_increment**: Screenshot depicting the incremental loading process from the ERP system.]
+(https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_ERP_increment.JPG)
 
-- **SSIS_ERP_Address**: Screenshot demonstrating the ETL process for ERP addresses.
-https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_ERP_Address.JPG
+- ![**SSIS_ERP_Address**: Screenshot demonstrating the ETL process for ERP addresses.]
+(https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_ERP_Address.JPG)
 
-- **SSIS_ERP**: Screen capturing the general ETL process from the ERP system.
-https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_ERP.JPG
+- ![**SSIS_ERP**: Screen capturing the general ETL process from the ERP system.]
+(https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_ERP.JPG)
 
-- **SSIS_DimEmployee**: Screenshot displaying the ETL process for the Employee dimension.
+- ![**SSIS_DimEmployee**: Screenshot displaying the ETL process for the Employee dimension.]
 
-https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_DimEmployee.JPG
+(https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/SSIS_DimEmployee.JPG)
 
-- **DWH Schema**: Screenshot illustrating the Data Warehouse Schema with Slowly Changing Dimensions (SCD) and Conformed/Role-Playing Dimensions.
+- ![**DWH Schema**: Screenshot illustrating the Data Warehouse Schema with Slowly Changing Dimensions (SCD) and Conformed/Role-Playing Dimensions.]
 
-https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/DWH%20Schema.JPG
+(https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/DWH%20Schema.JPG)
 
-- **Power BI**: Screenshot of the Power BI dashboard displaying visualizations.
+- ![**Power BI**: Screenshot of the Power BI dashboard displaying visualizations.]
 
-https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/Power%20BI.JPG
+(https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/Power%20BI.JPG)
+
+- ![**SSRS Report**:A visual representation of the Internet Sales report created with SQL Server Reporting Services (SSRS).]
+
+(https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/Power%20BI.JPG)
 
 
 
@@ -65,14 +71,9 @@ https://github.com/AshrafMohsen/End-to-EndDWSolution/blob/master/Screenshots/Pow
 - `SSISPackages/`: SSIS packages for ETL processes.
 - `SSASModel/`: Files related to the Tabular model in SSAS.
 - `PowerBIReports/`: Power BI reports for data visualization.
+- `SSRS Report/`:  Contain SQL Server Reporting Services reports for generating detailed and formatted reports.
 - `AdventureWorks/`: AdventureWorks2022 source data.
 - `Screenshots/`: Screenshots of different project aspects.
 - `README.md`: Project overview, and details.
 
-## Getting Started
 
-1. Clone this repository to your local machine.
-2. Set up the staging and data warehouse tables using the provided SQL scripts, utilizing SQL's power to structure and manage data.
-3. Use SSIS to load data from the source system into the staging tables, showcasing your SQL proficiency in data transformation.
-4. Create the Tabular model in SSAS based on the dimensional schema, with SQL-driven constructs and DAX measures.
-5. Deploy the SSAS model and connect to it using Power BI for visualization, showcasing the synergy between SQL and visualization.
